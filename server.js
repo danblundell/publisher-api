@@ -21,6 +21,12 @@ const njk = expressNunjucks(app, {
     throwOnUndefined: isDev 
 });
 
+// Imports the Google Cloud client library
+var PubSub = require('@google-cloud/pubsub')({
+  projectId: 'nationwise-171613',
+  keyFilename: 'Nationwise-61ad9f68cc95.json'
+});
+
 // middlewares
 app.use(express.static('public'))
 app.use(helmet()); // security stuffs

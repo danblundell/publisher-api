@@ -9,6 +9,7 @@
   "author": "Dan Blundell",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/pubsub": "^0.13.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-nunjucks": "^2.2.3",
