@@ -1,12 +1,12 @@
 {
-  "name": "publish-api",
+  "name": "subscriber-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "test"
   },
-  "author": "Dan Blundell",
+  "author": "Josh Watson",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/pubsub": "^0.13.0",
